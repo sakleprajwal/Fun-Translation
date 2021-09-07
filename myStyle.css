@@ -1,0 +1,81 @@
+.bg-fixed{
+    color: aliceblue;
+    background-image: url('babay-yoda-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.minion-form{
+    display: flex;
+    flex-flow: column;
+    /* justify-content: center; */
+    margin: auto;
+    margin-top: 10%;
+    width: 100%;
+    max-width: 40rem;
+    border-radius: 3rem;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.header{
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.input-div{
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.input-area{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.button-area{
+    font-family: 'Hind', sans-serif;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.translate-button{
+    border-radius: 2rem;
+    background-color: #8bbbb3;
+    border: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    color:rgba(0, 0, 0, 0.651);
+    min-width: 8rem;
+    text-align: center;
+    text-decoration: none;
+}
+.translate-button:hover{
+    opacity: 0.9;
+}
+
+.output-area{
+    font-family: 'Hind', sans-serif;
+    margin: auto;
+    font-size: x-large;
+    padding: 2rem;
+}
+
+/* #output{
+    border-width: 3rem;
+    border: 1px solid brown;
+    height: 10vh;
+    width: 40vw;
+} */
+
